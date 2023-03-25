@@ -18,7 +18,7 @@
     },
     "resources": [
       {
-        "name": "[uniqueString(parameters('Workbook 1'))]",
+        "name": "[guid(parameters('Workbook 1'))]",
         "type": "microsoft.insights/workbooks",
         "location": "[resourceGroup().location]",
         "apiVersion": "2022-04-01",
