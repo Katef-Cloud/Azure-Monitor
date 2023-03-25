@@ -16,9 +16,6 @@
         }
       }
     },
-    "variables": {
-      "Guid": "[newGuid()]"
-    },
     "resources": [
       {
         "name": "[uniqueString(parameters('Workbook 1'))]",
