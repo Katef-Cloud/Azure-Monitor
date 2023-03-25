@@ -16,9 +16,12 @@
         }
       }
     },
+    "variables": {
+      "Guid": "[newGuid()]"
+    },
     "resources": [
       {
-        "name": "[newGuid()]",
+        "name": "[variables('Guid')]",
         "type": "microsoft.insights/workbooks",
         "location": "[resourceGroup().location]",
         "apiVersion": "2022-04-01",
