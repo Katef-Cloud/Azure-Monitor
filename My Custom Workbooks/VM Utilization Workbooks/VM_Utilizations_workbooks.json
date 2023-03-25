@@ -6,28 +6,28 @@
         "type": "string",
         "defaultValue": "Over Utilized VMs",
         "metadata": {
-          "description": "The friendly name for the workbook that is used in the Gallery or Saved List.  This name must be unique within a resource group."
+          "description": "Shows CPU , Memory and Disk Usage greater than 80% most of the time for all Azure and on-premises machines."
         }
       },
       "Workbook 2": {
         "type": "string",
         "defaultValue": "Under Utilized VMs",
         "metadata": {
-          "description": "The friendly name for the workbook that is used in the Gallery or Saved List.  This name must be unique within a resource group."
+          "description": "Shows CPU and  Memory Usage Less than 35% most of the time and Disk Usage less then 10% for all Azure and on-premises machines."
         }
       },
       "Workbook 3": {
         "type": "string",
         "defaultValue": "VM utilization over the time",
         "metadata": {
-          "description": "The friendly name for the workbook that is used in the Gallery or Saved List.  This name must be unique within a resource group."
+          "description": "Used to Check specifice VMs for CPU and Memory Utilization over the time."
         }
       },
       "Workbook 4": {
         "type": "string",
         "defaultValue": "VM Disk Usage",
         "metadata": {
-          "description": "The friendly name for the workbook that is used in the Gallery or Saved List.  This name must be unique within a resource group."
+          "description": "Show list of all Disks and their Usage for all Azure and on premise machines."
         }
       }
     },
